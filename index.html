@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
     <title>Wellness</title>
+
+        
 </head>
 <body>
+    <div class="container">
+
+        <div class="login">
+            <div class="logo"><img src="./assets/logo.webp" alt="Logo"></div>
     
+            <header>
+                <h2>Welcome Back</h2>
+                <p>allows you ti pay online at all applications and website that accepts MasterCard cards</p>
+            </header>
+    
+            <div class="form">
+                <form action="/login" method="post">
+                    <label for="email">Email</label>
+                    <input style="display: block;" type="email" name="email" placeholder="momohhalima@gmail.com" required>
+                    <label for="password">Password</label>
+                    <input style="display: block;" type="password" name="password" placeholder="at least 8 characters" required>
+                    
+                    <div class="checkbox-container">
+                        <label for="checkbox">
+                            <input type="checkbox" name="checkbox">
+                            <span class="checkmark"></span>
+                            Remember me
+                        </label>
+
+                        <a href="#" target="_blank">Forget Password?</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    
+                </form>
+            </div>
+    
+    
+        </div>
+        <div class="image-field">
+            <!-- I've converted the image from png to webp to speed up the loading process -->
+            <img src="./assets/image.webp" alt="fitness">
+        </div>
+    
+    </div>
+    
+
 </body>
 </html>
