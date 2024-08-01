@@ -16,28 +16,36 @@
             <div class="logo"><img src="./assets/logo.webp" alt="Logo"></div>
     
             <header>
-                <h2>Welcome Back</h2>
-                <p>allows you ti pay online at all applications and website that accepts MasterCard cards</p>
+                <h1>Welcome Back</h1>
+                <p>Allows you to pay online at all applications and website that accepts MasterCard cards</p>
             </header>
     
             <div class="form">
                 <form action="/login" method="post">
-                    <label for="email">Email</label>
-                    <input style="display: block;" type="email" name="email" placeholder="momohhalima@gmail.com" required>
-                    <label for="password">Password</label>
-                    <input style="display: block;" type="password" name="password" placeholder="at least 8 characters" required>
+                    <label for="email">Email
+                        <input style="display: block;" type="email" name="email" placeholder="momohhalima@gmail.com" required>
+                    </label>
+                    
+                    <label for="password">Password
+                        <input style="display: block;" type="password" name="password" placeholder="at least 8 characters" required>
+                    </label>
+                    
                     
                     <div class="checkbox-container">
                         <label for="checkbox">
                             <input type="checkbox" name="checkbox">
                             <span class="checkmark"></span>
-                            Remember me
+                            Remember Me
                         </label>
 
-                        <a href="#" target="_blank">Forget Password?</a>
+                        <a class="link" href="#" target="_blank">Forget Password?</a>
                     </div>
-                    <button type="submit">Login</button>
-                    
+                    <button class="login-btn" type="submit">Log In</button>
+                    <button class="google-btn">
+                        <img src="./assets/google-icon.webp" alt="">
+                        Sign In with Google
+                    </button>
+                    <div class="footer">Not registered yet?  <a class="link" href="#" target="_blank">Create an Account</a></div>
                 </form>
             </div>
     
